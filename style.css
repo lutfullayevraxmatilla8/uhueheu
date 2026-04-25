@@ -194,3 +194,144 @@ body {
   width: 100%;
   color: white;
 }
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+body {
+  background: #0b0b0b;
+  color: white;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 25px 60px;
+}
+
+.qiz-box {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.qiz-icon {
+  width: 25px;
+  height: 25px;
+  border: 2px solid orange;
+  border-radius: 50%;
+}
+
+.qiz-text {
+  font-weight: 600;
+}
+
+.qiz-text span {
+  color: orange;
+}
+
+.nav {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.burger {
+  width: 25px;
+  height: 2px;
+  background: white;
+  position: relative;
+}
+
+.burger::before,
+.burger::after {
+  content: "";
+  position: absolute;
+  width: 25px;
+  height: 2px;
+  background: white;
+}
+
+.burger::before {
+  top: -8px;
+}
+
+.burger::after {
+  top: 8px;
+}
+
+.menu-btn {
+  border: 1px solid orange;
+  padding: 6px 12px;
+  border-radius: 6px;
+}
+
+.odam {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 60px;
+}
+
+.odam-left {
+  max-width: 500px;
+}
+
+.mini {
+  color: orange;
+  margin-bottom: 10px;
+  letter-spacing: 2px;
+}
+
+.odam-left h1 {
+  font-size: 70px;
+  line-height: 1;
+}
+
+.odam-left h1 span {
+  color: orange;
+}
+
+.desc {
+  margin: 20px 0 10px;
+  font-size: 20px;
+}
+
+.sub {
+  color: #aaa;
+  margin-bottom: 20px;
+}
+
+button {
+  background: linear-gradient(45deg, orange, #ff5e00);
+  border: none;
+  padding: 12px 25px;
+  border-radius: 8px;
+  color: white;
+  cursor: pointer;
+}
+.odam-right {
+  position: relative;
+}
+
+.odam-right img {
+  width: 450px;
+  position: relative;
+  z-index: 2;
+}
+
+.circle {
+  position: absolute;
+  width: 400px;
+  height: 400px;
+  border: 2px solid orange;
+  border-radius: 50%;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  opacity: 0.4;
+}
