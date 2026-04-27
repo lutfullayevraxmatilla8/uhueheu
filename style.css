@@ -213,24 +213,24 @@ body {
   padding: 25px 60px;
 }
 
-.qiz-box {
+.raxmatilla-box {
   display: flex;
   align-items: center;
   gap: 10px;
 }
 
-.qiz-icon {
+.raxmatilla-icon {
   width: 25px;
   height: 25px;
   border: 2px solid orange;
   border-radius: 50%;
 }
 
-.qiz-text {
+.raxmatilla-text {
   font-weight: 600;
 }
 
-.qiz-text span {
+.raxmatilla-text span {
   color: orange;
 }
 
@@ -264,20 +264,20 @@ body {
   top: 8px;
 }
 
-.menu-btn {
+.tel-btn {
   border: 1px solid orange;
   padding: 6px 12px;
   border-radius: 6px;
 }
 
-.odam {
+.kiber {
   display: flex;
   justify-content: space-between;
   align-items: center;
   padding: 60px;
 }
 
-.odam-left {
+.kiber-left {
   max-width: 500px;
 }
 
@@ -287,12 +287,12 @@ body {
   letter-spacing: 2px;
 }
 
-.odam-left h1 {
+.kiber-left h1 {
   font-size: 70px;
   line-height: 1;
 }
 
-.odam-left h1 span {
+.kiber-left h1 span {
   color: orange;
 }
 
@@ -314,11 +314,11 @@ button {
   color: white;
   cursor: pointer;
 }
-.odam-right {
+.kiber-right {
   position: relative;
 }
 
-.odam-right img {
+.kiber-right img {
   width: 450px;
   position: relative;
   z-index: 2;
